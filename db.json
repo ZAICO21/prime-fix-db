@@ -1,0 +1,144 @@
+{
+  "payment": [
+    {
+      "id_payment": "PAY001",
+      "card_number": "1149489486611611",
+      "card_type": "Débito",
+      "month": 7,
+      "year": 2029,
+      "ccv": 333,
+      "id_user_account": "UA001"
+    },
+    {
+      "id_payment": "PAY002",
+      "card_number": "5555888877776666",
+      "card_type": "Crédito",
+      "month": 11,
+      "year": 2030,
+      "ccv": 121,
+      "id_user_account": "UA002"
+    }
+  ],
+  "rating": [
+    {
+      "id_rating": "RAT001",
+      "star_rating": 4,
+      "comment": "El servicio cumplió con mis expectativas pero fue un poco tardío.",
+      "id_auto_repair": "AR001",
+      "id_user": "U003"
+    },
+    {
+      "id_rating": "RAT002",
+      "star_rating": 5,
+      "comment": "Excelente atención, rápido y confiable.",
+      "id_auto_repair": "AR002",
+      "id_user": "U002"
+    }
+  ],
+  "user_accounts": [
+    {
+      "id_user_account": "UA002",
+      "email": "emily.johnson@hotmail.com",
+      "id_user": "U002",
+      "id_role": "R001",
+      "id_membership": "M002",
+      "password": "hashed_password_2"
+    },
+    {
+      "id_user_account": "UA001",
+      "email": "john.smith@gmail.com",
+      "id_user": "U001",
+      "id_role": "R001",
+      "id_membership": "M001",
+      "password": "hashed_password_1"
+    },
+    {
+      "id_user_account": "UA003",
+      "email": "michael.brown@hotmail.com",
+      "id_user": "U003",
+      "id_role": "R001",
+      "id_membership": "M003",
+      "password": "hashed_password_3"
+    },
+    {
+      "id_user_account": "UA004",
+      "email": "sophia.davis@example.com",
+      "id_user": "U004",
+      "id_role": "R001",
+      "id_membership": "M002",
+      "password": "hashed_password_4"
+    }
+  ],
+  "user": [
+    {
+      "id_user": "U001",
+      "name": "Carlos",
+      "last_name": "Pérez",
+      "dni": "99999999",
+      "id_location": "LOC001"
+    },
+    {
+      "id_user": "U002",
+      "name": "María",
+      "last_name": "López",
+      "dni": "88888888",
+      "id_location": "LOC002"
+    }
+  ],
+  "autoRepair": [
+    {
+      "id_auto_repair": "AR001",
+      "RUC": "20485930211",
+      "name": "Alvillantás",
+      "contact_email": "contacto@alvillantas.pe",
+      "technicians_count": 5,
+      "id_location": "LOC003"
+    },
+    {
+      "id_auto_repair": "AR002",
+      "RUC": "20601234567",
+      "name": "Rápido Motor",
+      "contact_email": "info@rapidomotor.pe",
+      "technicians_count": 8,
+      "id_location": "LOC004"
+    }
+  ],
+  "vehicleDiagnosis": [
+    {
+      "id_diagnosis": "DIAG001",
+      "id_visit": "VIS001",
+      "price": 559.0,
+      "status": "Completado",
+      "diagnosis": "Cambio de pastillas de freno y ajuste del sistema."
+    },
+    {
+      "id_diagnosis": "DIAG002",
+      "id_visit": "VIS002",
+      "price": 340.0,
+      "status": "Completado",
+      "diagnosis": "Cambio de aceite y filtro, revisión general."
+    }
+  ],
+  "location": [
+    {
+      "id_location": "LOC001",
+      "address": "Av. Primavera 123",
+      "district": "Surco"
+    },
+    {
+      "id_location": "LOC002",
+      "address": "Jr. Los Olivos 560",
+      "district": "Los Olivos"
+    },
+    {
+      "id_location": "LOC003",
+      "address": "Av. La Marina 432",
+      "district": "San Miguel"
+    },
+    {
+      "id_location": "LOC004",
+      "address": "Av. San Borja Sur 880",
+      "district": "San Borja"
+    }
+  ]
+}
